@@ -1,86 +1,214 @@
-# Projeto de Desenvolvimento Web e Mobile
----
-Repositório para atividade e projeto da disciplina de Desenvolvimento Web e Mobile.
+# ♻️ Marketplace de Materiais Recicláveis
 
-# 🐾 Sistema de Identificação e Adoção de Animais Perdidos
-
-> Projeto acadêmico desenvolvido para a disciplina de **Desenvolvimento Web e Mobile**.
+Plataforma digital para conectar pessoas, empresas, cooperativas e indústrias interessadas em **comprar, vender ou reaproveitar materiais descartáveis e recicláveis**, transformando resíduos em oportunidades de negócio e contribuindo para a sustentabilidade.
 
 ---
-
 
 ## 📌 Sobre o Projeto
 
-Uma plataforma web/mobile pensada para facilitar o reencontro de pets perdidos com seus donos, gerenciar vagas em abrigos parceiros e intermediar processos de adoção responsável.
+O **Marketplace de Materiais Recicláveis** é um projeto desenvolvido para a disciplina de **Projeto de Sistemas e Dev Web Mobile**, com o objetivo de propor uma solução tecnológica para um problema relacionado ao descarte inadequado e ao desperdício de materiais que ainda possuem valor econômico ou podem ser reaproveitados.
 
-A proposta é combinar um cadastro rápido, filtros de busca, gestão de capacidade e incentivo à adoção, criando uma rede de apoio. O ciclo contínuo da plataforma será: 
-`Perder/Encontrar → Cadastrar → Cruzar Dados → Conectar → Resgatar`
+Atualmente, empresas, comércios, cooperativas, catadores e outros fornecedores podem possuir grandes quantidades de materiais descartáveis ou recicláveis que acabam sendo descartados por falta de conhecimento sobre possíveis compradores ou destinos adequados.
 
----
+Ao mesmo tempo, existem empresas, indústrias, artesãos, recicladores e consumidores que procuram esses materiais para reutilização ou como matéria-prima
 
-
-## 🎯 Diferencial do Projeto
-
-O principal diferencial será o sistema inteligente de **"Match"**. O objetivo não é apenas ser um mural estático. Se um usuário cadastra a perda de um pet em uma região, a plataforma recomendará ativamente anúncios de animais com características semelhantes encontrados nas proximidades, otimizando o tempo de busca e cruzando as informações.
+O projeto propõe uma plataforma que funcione como um **marketplace especializado**, conectando esses dois lados:
 
 ---
 
+# 💡 Proposta
 
-## ⚙️ Principais Funcionalidades
+Buscar solucionar esse problema por meio de um **marketplace especializado em materiais recicláveis**
 
-### 🐶 Animais Perdidos e Encontrados
-- **Cadastro completo:** Inclusão de fotos, raça, porte, cor, localização aproximada e observações gerais.
-- **Busca com Filtros:** Pesquisa rápida por região, status (perdido/encontrado) e características do pet.
+A plataforma permitirá que fornecedores publiquem seus materiais e que compradores encontrem aquilo que procuram utilizando informações como:
 
-### 🏠 Gestão de Abrigos
-- **Mapeamento de Vagas:** Painel para abrigos e ONGs informarem vagas disponíveis para acolhimento temporário ou permanente.
-- **Atualização em Tempo Real:** Status visual de capacidade do abrigo.
+- Tipo de material
+- Quantidade
+- Preço
+- Localização
+- Condição do material
+- Disponibilidade
 
-### ❤️ Adoção Responsável
-- **Mural de Doação:** Listagem de animais disponíveis para adoção.
-- **Contato Direto:** Canal de comunicação rápida entre adotantes e protetores/abrigos.
+O fluxo principal da plataforma será:
 
----
+**Cadastrar → Encontrar → Negociar → Comprar → Reaproveitar**
 
+A ideia central do projeto pode ser resumida em:
 
-## 🚀 Estrutura do MVP (Produto Mínimo Viável)
-
-A primeira versão do sistema será focada na validação da proposta principal, dividida nos seguintes domínios:
-
-| Domínio | Responsabilidade |
-| :--- | :--- |
-| **Usuários** | Perfis de adotantes, tutores e protetores (Autenticação) |
-| **Pets** | Gestão de status, fotos e características físicas |
-| **Abrigos** | Controle de vagas em tempo real e endereços |
-| **Conexões** | Contato direto e mural de doação |
+> **"O que é descarte para um, pode ser recurso para outro"**
 
 ---
 
+# 👥 Público-Alvo
 
-## 🛣️ Roadmap de Desenvolvimento
+A plataforma será direcionada principalmente para dois grupos
 
-* **Fase 1 (Validação):** Mapeamento do problema e estruturação inicial do banco de dados.
-* **Fase 2 (MVP):** Lançamento dos cadastros, fotos e busca com filtros básicos.
-* **Fase 3 (Inteligência):** Implementação do cruzamento automático de dados (Match).
-* **Fase 4 (Engajamento):** Criação de perfis verificados e sistema de apoio para abrigos.
+### Fornecedores
+
+- Cooperativas de catadores
+- Catadores
+- Empresas com resíduos
+- Comércios
+- Indústrias com sobras de produção
+- Pequenos negócios
+
+### Compradores
+
+- Indústrias
+- Empresas de reciclagem
+- Empresas que utilizam materiais reciclados
+- Artesãos
+- Pequenos produtores
+- Consumidores interessados em reutilização
 
 ---
 
+# 🔎 Busca e Descoberta
 
-## 🤝 Organização e Fluxo de Trabalho
+Um dos principais recursos da plataforma será facilitar a localização de materiais
 
-Para mantermos o código organizado ao longo da disciplina, seguiremos este padrão de versionamento:
-1. Sincronize o repositório localmente utilizando o GitHub Desktop.
-2. Crie uma branch específica para a sua nova funcionalidade sempre a partir da branch `develop`.
-3. Realize as alterações e faça o commit das suas entregas.
-4. Abra um *Pull Request* detalhando o que foi desenvolvido naquela etapa.
-5. Peça para que seus colegas revisem o código. Só clique em fechar o pull request e fazer a integração do código após a revisão do grupo.
+O comprador poderá pesquisar por diferentes características, como:
+
+- Tipo de material
+- Quantidade
+- Preço
+- Distância
+- Localização
+- Condição
+- Avaliação do fornecedor
+
+Por exemplo:
+
+> **"Preciso de 200 kg de plástico PET em um raio de 30 km"**
+
+O sistema poderá apresentar os anúncios que melhor correspondem aos critérios da pesquisa
 
 ---
 
+# 📦 Marketplace de Materiais
+
+Os fornecedores poderão criar anúncios contendo informações sobre os materiais disponíveis
+
+Cada anúncio poderá apresentar:
+
+| Informação | Exemplo |
+|---|---|
+| Material | Papelão |
+| Quantidade | 500 kg |
+| Preço | R$ 0,80/kg |
+| Localização | São Paulo - SP |
+| Condição | Bom estado |
+| Disponibilidade | Imediata |
+
+Os anúncios poderão ser atualizados conforme a quantidade disponível ou após a realização de uma negociação
+
+---
+
+# 💬 Negociação
+
+A plataforma poderá oferecer um sistema de comunicação entre compradores e fornecedores
+
+Os usuários poderão conversar para definir:
+
+- Quantidade
+- Preço
+- Forma de pagamento
+- Retirada
+- Entrega
+- Prazo
+
+O objetivo é centralizar a negociação dentro da plataforma, tornando o processo mais organizado
+
+---
+
+# ⭐ Sistema de Reputação
+
+A confiança será um dos pontos importantes do marketplace
+
+Após uma negociação, os usuários poderão avaliar suas experiências
+
+Exemplo:
+
+```text
+Fornecedor
+⭐ 4,8 / 5
+
+37 negociações realizadas
+95% de avaliações positivas
+```
+
+---
+
+# 🧩 Estrutura da Plataforma
+
+A plataforma poderá ser dividida em diferentes módulos:
+
+| Módulo        | Responsabilidade         |
+| ------------- | ------------------------ |
+| Usuários      | Cadastro, login e perfis |
+| Materiais     | Cadastro e gerenciamento |
+| Marketplace   | Anúncios e ofertas       |
+| Busca         | Pesquisa e filtros       |
+| Negociação    | Mensagens e negociações  |
+| Avaliação     | Reputação dos usuários   |
+| Notificações  | Alertas e atualizações   |
+| Administração | Moderação e denúncias    |
+
+---
+
+# 💰 Modelo de Negócio
+
+O modelo de negócio será baseado principalmente na intermediação das negociações realizadas na plataforma
+
+Comissão por transação
+
+A plataforma poderá receber uma porcentagem sobre cada negociação realizada
+
+```text 
+Valor da venda: R$ 1.000
+Comissão: 5%
+
+Receita da plataforma: R$ 50
+```
+
+# 📋 Planos para empresas
+
+Empresas poderão contratar planos com recursos adicionais, como:
+
+Maior quantidade de anúncios
+Destaque de anúncios
+Relatórios
+Indicadores de sustentabilidade
+Maior visibilidade
+
+Também poderão existir anúncios patrocinados e planos específicos para fornecedores
+
+---
+
+# 📌 Princípios do Projeto
+
+O desenvolvimento do projeto deverá seguir alguns princípios:
+
+- Facilitar o reaproveitamento
+- Conectar oferta e demanda
+- Priorizar a confiança entre usuários
+- Simplificar a negociação
+- Incentivar a economia circular
+- Começar simples e evoluir conforme a necessidade
+
+--- 
+
+# 🎓 Projeto Acadêmico
+
+Projeto desenvolvido a fins acadêmicos
+
+O objetivo é aplicar conceitos de análise, modelagem, desenvolvimento e documentação na criação de uma solução tecnológica para um problema real
+
+---
 
 ## 👥 Integrantes do Grupo
 
 - **Antonio Andrade Trauthman**
 - **Gabriel Henrique Coldebella de Souza**
 - **Hiago Freitas Jatobá**
+- **João Igor dos Santos Nascimento**
