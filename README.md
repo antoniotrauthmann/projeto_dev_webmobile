@@ -208,7 +208,10 @@ O objetivo é aplicar conceitos de análise, modelagem, desenvolvimento e docume
 
 ## 👥 Integrantes do Grupo
 
-- **Antonio Andrade Trauthman**
-- **Gabriel Henrique Coldebella de Souza**
-- **Hiago Freitas Jatobá**
-- **João Igor dos Santos Nascimento**
+#### Equipe
+| Nome | Github |
+| ------------------------- | ------------------------------------------ |
+| Gabriel Henrique | [@GabrielColdebella](https://github.com/GabrielColdebella) |
+| Hiago Freitas | [@HiagoFreitas0](https://github.com/HiagoFreitas0) |
+| Antônio Trauthmann | [@antoniotrauthmann](https://github.com/antoniotrauthmann) |
+| João Igor | [@JIgor08](https://github.com/JIgor08) |
